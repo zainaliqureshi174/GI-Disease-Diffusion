@@ -1,0 +1,23 @@
+# Dataset (too large for GitHub)
+data/raw/*
+data/processed/*
+
+# Model checkpoints (large files)
+*.pth
+*.pt
+*.ckpt
+models/*.pth
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+venv/
+env/
+.env
